@@ -5,4 +5,12 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://ballou88.github.io',
                 'git_url': 'https://github.com/ballou88/nbdev_card',
                 'lib_path': 'nbdev_card'},
-  'syms': {'nbdev_card.core': {'nbdev_card.core.foo': ('core.html#foo', 'nbdev_card/core.py')}}}
+  'syms': { 'nbdev_card.card': { 'nbdev_card.card.Card': ('card.html#card', 'nbdev_card/card.py'),
+                                 'nbdev_card.card.Card.__eq__': ('card.html#card.__eq__', 'nbdev_card/card.py'),
+                                 'nbdev_card.card.Card.__gt__': ('card.html#card.__gt__', 'nbdev_card/card.py'),
+                                 'nbdev_card.card.Card.__init__': ('card.html#card.__init__', 'nbdev_card/card.py'),
+                                 'nbdev_card.card.Card.__lt__': ('card.html#card.__lt__', 'nbdev_card/card.py'),
+                                 'nbdev_card.card.Card.__str__': ('card.html#card.__str__', 'nbdev_card/card.py')},
+            'nbdev_card.deck': { 'nbdev_card.deck.Deck': ('deck.html#deck', 'nbdev_card/deck.py'),
+                                 'nbdev_card.deck.Deck.__init__': ('deck.html#deck.__init__', 'nbdev_card/deck.py'),
+                                 'nbdev_card.deck.Deck.__str__': ('deck.html#deck.__str__', 'nbdev_card/deck.py')}}}
