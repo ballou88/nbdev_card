@@ -6,7 +6,7 @@
 __all__ = ['suits', 'ranks', 'Card']
 
 # %% ../nbs/00_card.ipynb 2
-from fastcore.utils import *
+from fastcore.test import *
 
 # %% ../nbs/00_card.ipynb 4
 suits = ["♣️","♦️","❤️","♠️"]
