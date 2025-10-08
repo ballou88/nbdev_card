@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_card"
+  site-url: "https://ballou88.github.io/nbdev_card"
+  description: "A simple API for creating and using playing cards"
+  repo-branch: main
+  repo-url: "https://github.com/ballou88/nbdev_card"
